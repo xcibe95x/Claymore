@@ -8,4 +8,4 @@ Claymore is based on ComBoot it is a modification/customization of the original 
 
 ---
 
-<p align="center">Copyright &copy; 2017 <a href="http://www.florian-gareis.de" target="_blank">Florian Gareis</a>. Licensed under the terms of the <a href="LICENSE.md" target="_blank">MIT License</a></p>
+<p align="center">Copyright &copy; 2023 <a href="http://xcibe95x.com" target="_blank">Mauro Leoci</a>. Licensed under the terms of the <a href="LICENSE.md" target="_blank">MIT License</a></p>
