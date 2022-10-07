@@ -249,30 +249,30 @@ $(document).on("ready pjax:success", function () {
     .trigger("input");
 });
 
-// Smoth scroll #links
-$(function () {
-  $(
-    "a[href*=#]:not([href=#]):not([data-toggle=tab]):not([data-type=char-select])"
-  ).click(function () {
-    if (
-      location.pathname.replace(/^\//, "") ==
-        this.pathname.replace(/^\//, "") &&
-      location.hostname == this.hostname
-    ) {
-      var target = $(this.hash);
-      target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
-      if (target.length) {
-        $("html,body").animate(
-          {
-            scrollTop: target.offset().top,
-          },
-          1000
-        );
-        return false;
-      }
-    }
-  });
-});
+// // Smoth scroll #links
+// $(function () {
+//   $(
+//     "a[href*=#]:not([href=#]):not([data-toggle=tab]):not([data-type=char-select])"
+//   ).click(function () {
+//     if (
+//       location.pathname.replace(/^\//, "") ==
+//         this.pathname.replace(/^\//, "") &&
+//       location.hostname == this.hostname
+//     ) {
+//       var target = $(this.hash);
+//       target = target.length ? target : $("[name=" + this.hash.slice(1) + "]");
+//       if (target.length) {
+//         $("html,body").animate(
+//           {
+//             scrollTop: target.offset().top,
+//           },
+//           1000
+//         );
+//         return false;
+//       }
+//     }
+//   });
+// });
 
 $(document).on("click", ".panel-heading span.clickable", function (e) {
   var $this = $(this);
