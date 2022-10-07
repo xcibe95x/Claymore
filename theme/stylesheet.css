@@ -1,0 +1,14 @@
+/*  phpBB3 Style Sheet
+	--------------------------------------------------------------
+	Style name:			   claymore Free
+	Based on style:
+	Original author:	 Tom Beddard ( http://www.subblue.com/ )
+	Modified by:		   phpBB Limited ( https://www.phpbb.com/ )
+	Customised by:		 Florian Gareis ( http://www.florian-gareis.de/ )
+	Customised and Updated by: Mauro Leoci ( https://xcibe95x.com/ )
+	Version:			     1.2rc
+	Notes:				     No pre compiler used, so less files and stuff are removed.
+	--------------------------------------------------------------
+*/
+
+@import url("claymore/claymore.css");
