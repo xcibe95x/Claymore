@@ -4,7 +4,7 @@ jQuery(document).ready(function () {
   $.ajax({
     url: $urlpre + "//claymore.io/version.php",
     error: function (thrownError) {
-      pushNotify("Could not connect to update server!", "danger", "5");
+      // pushNotify("Could not connect to update server!", "danger", "5");
     },
     success: function (data) {
       $installed_version = $("meta[name=claymore-version]").attr("content");
