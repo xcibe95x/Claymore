@@ -617,7 +617,8 @@ ul.profile-links li {
   float: right;
 }
 i.online {
-  font-size: 10px;
+  vertical-align: middle;
+  font-size: 16px;
   margin-top: -1px;
 }
 /* To top elements
