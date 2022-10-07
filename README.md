@@ -1,4 +1,4 @@
-# Claymore
+![Claymore](https://github.com/xcibe95x/Claymore/blob/main/theme/images/site_logo.png)
 
 Claymore is based on ComBoot it is a modification/customization of the original no longer supported style, this repo exist to keep track of incompatibilities with PhpBB 3.3.8 so problems and missing pages can be fixed, as i noticed the password recovery page is totally missing in ComBoot.
 
