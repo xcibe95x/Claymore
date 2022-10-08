@@ -10,8 +10,8 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 	<link rel="icon" sizes="256x256" href="{T_THEME_PATH}/images/favicon.ico">
 
-	<meta name="comboot-version" content="1.1-rc5">
-	<meta name="comboot-channel" content="<!-- IF $BETA == 1 -->beta<!-- ELSE -->stable<!-- ENDIF -->">
+	<meta name="claymore" content="3.3.8">
+	<meta name="claymore-channel" content="STABLE">
 
 	{META}
 	<title><!-- IF UNREAD_NOTIFICATIONS_COUNT -->({UNREAD_NOTIFICATIONS_COUNT}) <!-- ENDIF --><!-- IF not S_VIEWTOPIC and not S_VIEWFORUM -->{SITENAME} - <!-- ENDIF --><!-- IF S_IN_MCP -->{L_MCP} - <!-- ELSEIF S_IN_UCP -->{L_UCP} - <!-- ENDIF -->{PAGE_TITLE}<!-- IF S_VIEWTOPIC or S_VIEWFORUM --> - {SITENAME}<!-- ENDIF --></title>
@@ -120,7 +120,7 @@
 							<!-- EVENT overall_header_breadcrumb_prepend -->
 							<!-- BEGIN navlinks -->
 								<!-- EVENT overall_header_navlink_prepend -->
-								<li><span class="crumb"{$MICRODATA}><a href="{navlinks.U_VIEW_FORUM}" <!-- IF navlinks.MICRODATA --> {navlinks.MICRODATA}<!-- ENDIF --> itemprop="url"><span itemprop="title">{navlinks.FORUM_NAME}</span></a></span></li>
+								<li><span class="crumb"{$MICRODATA}><a href="{navlinks.U_BREADCRUMB}" <!-- IF navlinks.MICRODATA --> {navlinks.MICRODATA} <!-- ENDIF --> itemprop="url"><span itemprop="title">{navlinks.BREADCRUMB_NAME}</span></a></span></li>
 								<!-- EVENT overall_header_navlink_append -->
 							<!-- END navlinks -->
 							<!-- EVENT overall_header_breadcrumb_append -->
